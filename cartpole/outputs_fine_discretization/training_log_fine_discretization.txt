@@ -1,0 +1,116 @@
+=== CartPole Q-Learning Training ===
+Experiment: fine_discretization
+Configuration:
+  ALPHA: 0.1
+  GAMMA: 0.99
+  EPSILON: 1.0
+  EPSILON_DECAY: 0.995
+  EPISODES: 10000
+  BUCKETS: (5, 5, 10, 10)
+Start time: 2026-01-18 19:06:08
+
+Episode    0 | Reward:    9.0 | Avg(100):   9.00 | Epsilon: 0.9950
+Episode  100 | Reward:   69.0 | Avg(100):  32.31 | Epsilon: 0.6027
+Episode  200 | Reward:   18.0 | Avg(100):  60.31 | Epsilon: 0.3651
+Episode  300 | Reward:   40.0 | Avg(100):  61.23 | Epsilon: 0.2212
+Episode  400 | Reward:   59.0 | Avg(100):  72.58 | Epsilon: 0.1340
+Episode  500 | Reward:  500.0 | Avg(100):  94.88 | Epsilon: 0.0812
+Episode  600 | Reward:   18.0 | Avg(100): 108.59 | Epsilon: 0.0492
+Episode  700 | Reward:  500.0 | Avg(100): 144.34 | Epsilon: 0.0298
+Episode  800 | Reward:  124.0 | Avg(100): 103.08 | Epsilon: 0.0180
+Episode  900 | Reward:  145.0 | Avg(100): 170.20 | Epsilon: 0.0109
+Episode 1000 | Reward:  108.0 | Avg(100): 192.41 | Epsilon: 0.0100
+Episode 1100 | Reward:  216.0 | Avg(100): 171.22 | Epsilon: 0.0100
+Episode 1200 | Reward:  101.0 | Avg(100): 181.50 | Epsilon: 0.0100
+Episode 1300 | Reward:  161.0 | Avg(100): 146.80 | Epsilon: 0.0100
+Episode 1400 | Reward:   83.0 | Avg(100): 126.50 | Epsilon: 0.0100
+Episode 1500 | Reward:  115.0 | Avg(100): 131.37 | Epsilon: 0.0100
+Episode 1600 | Reward:  349.0 | Avg(100): 237.54 | Epsilon: 0.0100
+Episode 1700 | Reward:   19.0 | Avg(100): 289.14 | Epsilon: 0.0100
+Episode 1800 | Reward:  145.0 | Avg(100): 179.54 | Epsilon: 0.0100
+Episode 1900 | Reward:  328.0 | Avg(100): 196.00 | Epsilon: 0.0100
+Episode 2000 | Reward:  410.0 | Avg(100): 231.33 | Epsilon: 0.0100
+Episode 2100 | Reward:  500.0 | Avg(100): 206.77 | Epsilon: 0.0100
+Episode 2200 | Reward:   17.0 | Avg(100): 270.91 | Epsilon: 0.0100
+Episode 2300 | Reward:  344.0 | Avg(100): 164.33 | Epsilon: 0.0100
+Episode 2400 | Reward:  133.0 | Avg(100): 292.21 | Epsilon: 0.0100
+Episode 2500 | Reward:  430.0 | Avg(100): 123.03 | Epsilon: 0.0100
+Episode 2600 | Reward:  104.0 | Avg(100): 300.04 | Epsilon: 0.0100
+Episode 2700 | Reward:  111.0 | Avg(100): 133.11 | Epsilon: 0.0100
+Episode 2800 | Reward:   17.0 | Avg(100): 352.26 | Epsilon: 0.0100
+Episode 2900 | Reward:  500.0 | Avg(100): 267.99 | Epsilon: 0.0100
+Episode 3000 | Reward:   16.0 | Avg(100): 216.82 | Epsilon: 0.0100
+Episode 3100 | Reward:  283.0 | Avg(100): 128.89 | Epsilon: 0.0100
+Episode 3200 | Reward:  196.0 | Avg(100): 194.42 | Epsilon: 0.0100
+Episode 3300 | Reward:  307.0 | Avg(100): 202.44 | Epsilon: 0.0100
+Episode 3400 | Reward:  297.0 | Avg(100): 256.65 | Epsilon: 0.0100
+Episode 3500 | Reward:  270.0 | Avg(100): 203.52 | Epsilon: 0.0100
+Episode 3600 | Reward:   16.0 | Avg(100): 257.66 | Epsilon: 0.0100
+Episode 3700 | Reward:  103.0 | Avg(100): 194.84 | Epsilon: 0.0100
+Episode 3800 | Reward:  289.0 | Avg(100): 251.08 | Epsilon: 0.0100
+Episode 3900 | Reward:  500.0 | Avg(100): 227.75 | Epsilon: 0.0100
+Episode 4000 | Reward:  500.0 | Avg(100): 307.32 | Epsilon: 0.0100
+Episode 4100 | Reward:  401.0 | Avg(100): 201.72 | Epsilon: 0.0100
+Episode 4200 | Reward:   18.0 | Avg(100): 201.58 | Epsilon: 0.0100
+Episode 4300 | Reward:  205.0 | Avg(100): 152.09 | Epsilon: 0.0100
+Episode 4400 | Reward:  167.0 | Avg(100): 300.27 | Epsilon: 0.0100
+Episode 4500 | Reward:  211.0 | Avg(100): 207.66 | Epsilon: 0.0100
+Episode 4600 | Reward:  451.0 | Avg(100): 295.63 | Epsilon: 0.0100
+Episode 4700 | Reward:  500.0 | Avg(100): 234.21 | Epsilon: 0.0100
+Episode 4800 | Reward:   19.0 | Avg(100): 244.24 | Epsilon: 0.0100
+Episode 4900 | Reward:  485.0 | Avg(100): 214.81 | Epsilon: 0.0100
+Episode 5000 | Reward:  289.0 | Avg(100): 265.98 | Epsilon: 0.0100
+Episode 5100 | Reward:  156.0 | Avg(100): 238.92 | Epsilon: 0.0100
+Episode 5200 | Reward:  308.0 | Avg(100): 235.46 | Epsilon: 0.0100
+Episode 5300 | Reward:  120.0 | Avg(100): 216.58 | Epsilon: 0.0100
+Episode 5400 | Reward:  274.0 | Avg(100): 171.60 | Epsilon: 0.0100
+Episode 5500 | Reward:  203.0 | Avg(100): 188.87 | Epsilon: 0.0100
+Episode 5600 | Reward:   14.0 | Avg(100): 174.84 | Epsilon: 0.0100
+Episode 5700 | Reward:  166.0 | Avg(100): 182.32 | Epsilon: 0.0100
+Episode 5800 | Reward:   15.0 | Avg(100): 151.30 | Epsilon: 0.0100
+Episode 5900 | Reward:  234.0 | Avg(100): 200.77 | Epsilon: 0.0100
+Episode 6000 | Reward:  424.0 | Avg(100): 291.82 | Epsilon: 0.0100
+Episode 6100 | Reward:   15.0 | Avg(100): 264.13 | Epsilon: 0.0100
+Episode 6200 | Reward:  500.0 | Avg(100): 297.06 | Epsilon: 0.0100
+Episode 6300 | Reward:  374.0 | Avg(100): 243.71 | Epsilon: 0.0100
+Episode 6400 | Reward:  351.0 | Avg(100): 270.49 | Epsilon: 0.0100
+Episode 6500 | Reward:  138.0 | Avg(100): 147.09 | Epsilon: 0.0100
+Episode 6600 | Reward:   65.0 | Avg(100): 155.83 | Epsilon: 0.0100
+Episode 6700 | Reward:  240.0 | Avg(100): 179.21 | Epsilon: 0.0100
+Episode 6800 | Reward:  500.0 | Avg(100): 386.71 | Epsilon: 0.0100
+Episode 6900 | Reward:  342.0 | Avg(100): 193.41 | Epsilon: 0.0100
+Episode 7000 | Reward:  500.0 | Avg(100): 251.44 | Epsilon: 0.0100
+Episode 7100 | Reward:   15.0 | Avg(100): 245.78 | Epsilon: 0.0100
+Episode 7200 | Reward:  500.0 | Avg(100): 173.25 | Epsilon: 0.0100
+Episode 7300 | Reward:  447.0 | Avg(100): 311.70 | Epsilon: 0.0100
+Episode 7400 | Reward:  153.0 | Avg(100): 223.27 | Epsilon: 0.0100
+Episode 7500 | Reward:   41.0 | Avg(100): 257.46 | Epsilon: 0.0100
+Episode 7600 | Reward:   17.0 | Avg(100): 171.61 | Epsilon: 0.0100
+Episode 7700 | Reward:  304.0 | Avg(100): 200.37 | Epsilon: 0.0100
+Episode 7800 | Reward:  437.0 | Avg(100): 230.30 | Epsilon: 0.0100
+Episode 7900 | Reward:  342.0 | Avg(100): 219.99 | Epsilon: 0.0100
+Episode 8000 | Reward:  153.0 | Avg(100): 186.84 | Epsilon: 0.0100
+Episode 8100 | Reward:  357.0 | Avg(100): 344.84 | Epsilon: 0.0100
+Episode 8200 | Reward:  332.0 | Avg(100): 215.44 | Epsilon: 0.0100
+Episode 8300 | Reward:   44.0 | Avg(100): 243.09 | Epsilon: 0.0100
+Episode 8400 | Reward:   17.0 | Avg(100): 176.23 | Epsilon: 0.0100
+Episode 8500 | Reward:  321.0 | Avg(100): 150.27 | Epsilon: 0.0100
+Episode 8600 | Reward:  407.0 | Avg(100): 218.37 | Epsilon: 0.0100
+Episode 8700 | Reward:  345.0 | Avg(100): 250.06 | Epsilon: 0.0100
+Episode 8800 | Reward:  263.0 | Avg(100): 275.17 | Epsilon: 0.0100
+Episode 8900 | Reward:  109.0 | Avg(100): 214.61 | Epsilon: 0.0100
+Episode 9000 | Reward:  421.0 | Avg(100): 327.92 | Epsilon: 0.0100
+Episode 9100 | Reward:  330.0 | Avg(100): 279.19 | Epsilon: 0.0100
+Episode 9200 | Reward:   88.0 | Avg(100): 242.91 | Epsilon: 0.0100
+Episode 9300 | Reward:   16.0 | Avg(100): 282.37 | Epsilon: 0.0100
+Episode 9400 | Reward:  259.0 | Avg(100): 248.64 | Epsilon: 0.0100
+Episode 9500 | Reward:  100.0 | Avg(100): 240.15 | Epsilon: 0.0100
+Episode 9600 | Reward:  355.0 | Avg(100): 226.52 | Epsilon: 0.0100
+Episode 9700 | Reward:  500.0 | Avg(100): 326.49 | Epsilon: 0.0100
+Episode 9800 | Reward:  126.0 | Avg(100): 257.32 | Epsilon: 0.0100
+Episode 9900 | Reward:  500.0 | Avg(100): 306.40 | Epsilon: 0.0100
+
+=== Training Complete ===
+Final average reward (last 100 episodes): 257.99
+Maximum reward achieved: 500.00
+End time: 2026-01-18 19:07:23

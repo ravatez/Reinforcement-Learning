@@ -1,0 +1,119 @@
+=== MountainCar Q-Learning Training ===
+Experiment: high_discount
+Configuration:
+  ALPHA: 0.1
+  GAMMA: 0.999
+  EPSILON: 1.0
+  EPSILON_DECAY: 0.995
+  EPISODES: 10000
+  BUCKETS: (20, 20)
+Start time: 2026-01-18 18:56:25
+
+Episode    0 | Reward: -200.0 | Avg(100): -200.00 | Success: 0.0% | Epsilon: 0.9950
+Episode  100 | Reward: -200.0 | Avg(100): -200.00 | Success: 0.0% | Epsilon: 0.6027
+Episode  200 | Reward: -200.0 | Avg(100): -200.00 | Success: 0.0% | Epsilon: 0.3651
+Episode  300 | Reward: -200.0 | Avg(100): -200.00 | Success: 0.0% | Epsilon: 0.2212
+Episode  400 | Reward: -200.0 | Avg(100): -200.00 | Success: 0.0% | Epsilon: 0.1340
+Episode  500 | Reward: -200.0 | Avg(100): -199.77 | Success: 0.2% | Epsilon: 0.0812
+Episode  600 | Reward: -200.0 | Avg(100): -199.89 | Success: 0.7% | Epsilon: 0.0492
+Episode  700 | Reward: -200.0 | Avg(100): -199.68 | Success: 1.0% | Epsilon: 0.0298
+Episode  800 | Reward: -200.0 | Avg(100): -199.77 | Success: 1.0% | Epsilon: 0.0180
+Episode  900 | Reward: -200.0 | Avg(100): -197.97 | Success: 2.4% | Epsilon: 0.0109
+Episode 1000 | Reward: -200.0 | Avg(100): -199.04 | Success: 2.5% | Epsilon: 0.0100
+Episode 1100 | Reward: -200.0 | Avg(100): -200.00 | Success: 2.3% | Epsilon: 0.0100
+Episode 1200 | Reward: -193.0 | Avg(100): -197.44 | Success: 3.4% | Epsilon: 0.0100
+Episode 1300 | Reward: -200.0 | Avg(100): -198.81 | Success: 3.5% | Epsilon: 0.0100
+Episode 1400 | Reward: -200.0 | Avg(100): -187.33 | Success: 7.1% | Epsilon: 0.0100
+Episode 1500 | Reward: -156.0 | Avg(100): -174.18 | Success: 12.4% | Epsilon: 0.0100
+Episode 1600 | Reward: -200.0 | Avg(100): -195.67 | Success: 13.4% | Epsilon: 0.0100
+Episode 1700 | Reward: -200.0 | Avg(100): -189.31 | Success: 15.9% | Epsilon: 0.0100
+Episode 1800 | Reward: -200.0 | Avg(100): -194.68 | Success: 16.8% | Epsilon: 0.0100
+Episode 1900 | Reward: -200.0 | Avg(100): -194.95 | Success: 16.8% | Epsilon: 0.0100
+Episode 2000 | Reward: -189.0 | Avg(100): -198.82 | Success: 17.2% | Epsilon: 0.0100
+Episode 2100 | Reward: -200.0 | Avg(100): -177.73 | Success: 18.9% | Epsilon: 0.0100
+Episode 2200 | Reward: -200.0 | Avg(100): -193.83 | Success: 19.2% | Epsilon: 0.0100
+Episode 2300 | Reward: -195.0 | Avg(100): -181.79 | Success: 21.1% | Epsilon: 0.0100
+Episode 2400 | Reward: -200.0 | Avg(100): -180.93 | Success: 23.0% | Epsilon: 0.0100
+Episode 2500 | Reward: -186.0 | Avg(100): -197.08 | Success: 22.7% | Epsilon: 0.0100
+Episode 2600 | Reward: -177.0 | Avg(100): -170.33 | Success: 25.5% | Epsilon: 0.0100
+Episode 2700 | Reward: -144.0 | Avg(100): -171.81 | Success: 27.4% | Epsilon: 0.0100
+Episode 2800 | Reward: -200.0 | Avg(100): -182.62 | Success: 28.0% | Epsilon: 0.0100
+Episode 2900 | Reward: -191.0 | Avg(100): -175.90 | Success: 30.1% | Epsilon: 0.0100
+Episode 3000 | Reward: -155.0 | Avg(100): -164.71 | Success: 32.3% | Epsilon: 0.0100
+Episode 3100 | Reward: -157.0 | Avg(100): -171.01 | Success: 34.2% | Epsilon: 0.0100
+Episode 3200 | Reward: -199.0 | Avg(100): -186.23 | Success: 34.8% | Epsilon: 0.0100
+Episode 3300 | Reward: -200.0 | Avg(100): -198.62 | Success: 34.6% | Epsilon: 0.0100
+Episode 3400 | Reward: -196.0 | Avg(100): -187.52 | Success: 35.3% | Epsilon: 0.0100
+Episode 3500 | Reward: -172.0 | Avg(100): -179.98 | Success: 36.5% | Epsilon: 0.0100
+Episode 3600 | Reward: -169.0 | Avg(100): -179.91 | Success: 37.5% | Epsilon: 0.0100
+Episode 3700 | Reward: -174.0 | Avg(100): -181.70 | Success: 38.4% | Epsilon: 0.0100
+Episode 3800 | Reward: -200.0 | Avg(100): -183.01 | Success: 39.6% | Epsilon: 0.0100
+Episode 3900 | Reward: -179.0 | Avg(100): -192.74 | Success: 39.4% | Epsilon: 0.0100
+Episode 4000 | Reward: -200.0 | Avg(100): -197.01 | Success: 39.1% | Epsilon: 0.0100
+Episode 4100 | Reward: -200.0 | Avg(100): -191.92 | Success: 38.9% | Epsilon: 0.0100
+Episode 4200 | Reward: -156.0 | Avg(100): -173.23 | Success: 40.3% | Epsilon: 0.0100
+Episode 4300 | Reward: -167.0 | Avg(100): -170.56 | Success: 41.6% | Epsilon: 0.0100
+Episode 4400 | Reward: -184.0 | Avg(100): -171.69 | Success: 42.8% | Epsilon: 0.0100
+Episode 4500 | Reward: -115.0 | Avg(100): -166.54 | Success: 43.7% | Epsilon: 0.0100
+Episode 4600 | Reward: -158.0 | Avg(100): -170.51 | Success: 44.6% | Epsilon: 0.0100
+Episode 4700 | Reward: -162.0 | Avg(100): -164.70 | Success: 45.6% | Epsilon: 0.0100
+Episode 4800 | Reward: -158.0 | Avg(100): -153.63 | Success: 46.8% | Epsilon: 0.0100
+Episode 4900 | Reward: -163.0 | Avg(100): -155.58 | Success: 47.8% | Epsilon: 0.0100
+Episode 5000 | Reward: -120.0 | Avg(100): -153.70 | Success: 48.7% | Epsilon: 0.0100
+Episode 5100 | Reward: -167.0 | Avg(100): -147.11 | Success: 49.5% | Epsilon: 0.0100
+Episode 5200 | Reward: -133.0 | Avg(100): -189.46 | Success: 49.1% | Epsilon: 0.0100
+Episode 5300 | Reward: -168.0 | Avg(100): -167.36 | Success: 49.7% | Epsilon: 0.0100
+Episode 5400 | Reward: -199.0 | Avg(100): -184.87 | Success: 50.1% | Epsilon: 0.0100
+Episode 5500 | Reward: -188.0 | Avg(100): -180.13 | Success: 50.7% | Epsilon: 0.0100
+Episode 5600 | Reward: -200.0 | Avg(100): -176.68 | Success: 51.1% | Epsilon: 0.0100
+Episode 5700 | Reward: -200.0 | Avg(100): -182.97 | Success: 51.2% | Epsilon: 0.0100
+Episode 5800 | Reward: -196.0 | Avg(100): -181.58 | Success: 51.6% | Epsilon: 0.0100
+Episode 5900 | Reward: -183.0 | Avg(100): -177.57 | Success: 52.3% | Epsilon: 0.0100
+Episode 6000 | Reward: -184.0 | Avg(100): -179.78 | Success: 52.8% | Epsilon: 0.0100
+Episode 6100 | Reward: -200.0 | Avg(100): -185.32 | Success: 52.8% | Epsilon: 0.0100
+Episode 6200 | Reward: -192.0 | Avg(100): -183.47 | Success: 53.2% | Epsilon: 0.0100
+Episode 6300 | Reward: -184.0 | Avg(100): -172.01 | Success: 53.8% | Epsilon: 0.0100
+Episode 6400 | Reward: -184.0 | Avg(100): -183.99 | Success: 54.4% | Epsilon: 0.0100
+Episode 6500 | Reward: -178.0 | Avg(100): -182.82 | Success: 54.9% | Epsilon: 0.0100
+Episode 6600 | Reward: -164.0 | Avg(100): -188.42 | Success: 54.6% | Epsilon: 0.0100
+Episode 6700 | Reward: -155.0 | Avg(100): -180.48 | Success: 54.9% | Epsilon: 0.0100
+Episode 6800 | Reward: -157.0 | Avg(100): -166.97 | Success: 55.5% | Epsilon: 0.0100
+Episode 6900 | Reward: -200.0 | Avg(100): -177.16 | Success: 55.9% | Epsilon: 0.0100
+Episode 7000 | Reward: -150.0 | Avg(100): -153.37 | Success: 56.4% | Epsilon: 0.0100
+Episode 7100 | Reward: -128.0 | Avg(100): -144.22 | Success: 57.0% | Epsilon: 0.0100
+Episode 7200 | Reward: -175.0 | Avg(100): -149.92 | Success: 57.6% | Epsilon: 0.0100
+Episode 7300 | Reward: -200.0 | Avg(100): -181.70 | Success: 57.3% | Epsilon: 0.0100
+Episode 7400 | Reward: -147.0 | Avg(100): -148.87 | Success: 57.9% | Epsilon: 0.0100
+Episode 7500 | Reward: -166.0 | Avg(100): -157.59 | Success: 58.1% | Epsilon: 0.0100
+Episode 7600 | Reward: -200.0 | Avg(100): -184.83 | Success: 58.1% | Epsilon: 0.0100
+Episode 7700 | Reward: -148.0 | Avg(100): -178.61 | Success: 58.3% | Epsilon: 0.0100
+Episode 7800 | Reward: -151.0 | Avg(100): -153.58 | Success: 58.9% | Epsilon: 0.0100
+Episode 7900 | Reward: -154.0 | Avg(100): -150.98 | Success: 59.4% | Epsilon: 0.0100
+Episode 8000 | Reward: -152.0 | Avg(100): -151.86 | Success: 59.9% | Epsilon: 0.0100
+Episode 8100 | Reward: -200.0 | Avg(100): -145.74 | Success: 60.4% | Epsilon: 0.0100
+Episode 8200 | Reward: -145.0 | Avg(100): -155.38 | Success: 60.7% | Epsilon: 0.0100
+Episode 8300 | Reward: -146.0 | Avg(100): -170.77 | Success: 61.1% | Epsilon: 0.0100
+Episode 8400 | Reward: -152.0 | Avg(100): -164.85 | Success: 61.5% | Epsilon: 0.0100
+Episode 8500 | Reward: -193.0 | Avg(100): -164.42 | Success: 61.9% | Epsilon: 0.0100
+Episode 8600 | Reward: -149.0 | Avg(100): -156.31 | Success: 62.4% | Epsilon: 0.0100
+Episode 8700 | Reward: -186.0 | Avg(100): -170.21 | Success: 62.7% | Epsilon: 0.0100
+Episode 8800 | Reward: -200.0 | Avg(100): -170.36 | Success: 62.8% | Epsilon: 0.0100
+Episode 8900 | Reward: -142.0 | Avg(100): -169.41 | Success: 62.9% | Epsilon: 0.0100
+Episode 9000 | Reward: -153.0 | Avg(100): -166.82 | Success: 62.9% | Epsilon: 0.0100
+Episode 9100 | Reward: -166.0 | Avg(100): -164.14 | Success: 63.2% | Epsilon: 0.0100
+Episode 9200 | Reward: -200.0 | Avg(100): -170.61 | Success: 63.3% | Epsilon: 0.0100
+Episode 9300 | Reward: -158.0 | Avg(100): -179.93 | Success: 63.0% | Epsilon: 0.0100
+Episode 9400 | Reward: -127.0 | Avg(100): -145.59 | Success: 63.4% | Epsilon: 0.0100
+Episode 9500 | Reward: -124.0 | Avg(100): -142.50 | Success: 63.7% | Epsilon: 0.0100
+Episode 9600 | Reward: -150.0 | Avg(100): -138.94 | Success: 64.1% | Epsilon: 0.0100
+Episode 9700 | Reward: -158.0 | Avg(100): -140.02 | Success: 64.5% | Epsilon: 0.0100
+Episode 9800 | Reward: -160.0 | Avg(100): -152.90 | Success: 64.7% | Epsilon: 0.0100
+Episode 9900 | Reward: -150.0 | Avg(100): -157.28 | Success: 65.0% | Epsilon: 0.0100
+
+=== Training Complete ===
+Final average reward (last 100 episodes): -160.71
+Maximum reward achieved: -109.00
+Overall success rate: 65.31%
+Average steps (last 100): 160.71
+Training time: 61.74 seconds
+End time: 2026-01-18 18:57:27
